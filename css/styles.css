@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-color: #434455;
+    color: #434455;
     background-color: #ffff;
 }
 
@@ -21,7 +21,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5; 
 }
-.logo-accent {
+.header-logo-accent {
     color: #2e2f42;
 }
 
@@ -51,12 +51,12 @@ a {
     color: #404bbf;
 }
 
-/* features */
-.section {
+/* first section */
+.first-section {
     background: #2e2f42;
 }
 
-.section-title {
+.first-section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -64,7 +64,7 @@ a {
     color: #fff;
 }
 
-.section-button {
+.first-section-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
@@ -74,12 +74,14 @@ a {
     color: #fff;
 }
 
-.section-button:hover,
-.section-button:focus {
+.first-section-button:hover,
+.first-section-button:focus {
     background: #404bbf;
 }
 
-.features-title {
+/* features, portfolio description */
+.features-item-title,
+.portfolio-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -91,4 +93,49 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+/* team description*/
+
+.team-description-title,
+.portfolio-descriotion-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-item-text {   
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;     
+}
+
+/* page footer */
+
+.page-footer {
+    background: #2e2f42;
+}
+
+.footer-logo-accent {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
