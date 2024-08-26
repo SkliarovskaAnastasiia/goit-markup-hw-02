@@ -14,6 +14,7 @@ a {
 
 /* header */
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -53,7 +54,7 @@ a {
 
 /* first section */
 .first-section {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .first-section-title {
@@ -65,18 +66,18 @@ a {
 }
 
 .first-section-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 .first-section-button:hover,
 .first-section-button:focus {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 /* features, portfolio description */
@@ -96,7 +97,7 @@ a {
 }
 
 /* team description*/
-
+.features-title,
 .team-description-title,
 .portfolio-descriotion-title {
     font-weight: 700;
@@ -105,6 +106,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-descriotion-list {
+    background-color: #ffffff;
 }
 
 .team-item-title {
@@ -123,10 +129,14 @@ a {
     text-align: center;     
 }
 
+.portfolio-descriotion {
+    background-color: #F4F4FD;
+}
+
 /* page footer */
 
 .page-footer {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .footer-logo-accent {
