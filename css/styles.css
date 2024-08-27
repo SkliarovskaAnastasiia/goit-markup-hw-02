@@ -75,6 +75,11 @@ a {
     color: #fff;
 }
 
+.first-section-button:hover,
+.first-section-button:focus {
+    background-color: #404BBF;
+}
+
 .features-title, 
 .team-description-title,
 .portfolio-descriotion-title {
