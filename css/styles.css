@@ -52,12 +52,12 @@ a {
     color: #404bbf;
 }
 
-/* first section */
 .first-section {
     background-color: #2e2f42;
 }
 
 .first-section-title {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -66,21 +66,27 @@ a {
 }
 
 .first-section-button {
-    background: #4d5ae5;
+    background-color: #4d5ae5;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
 }
 
-.first-section-button:hover,
-.first-section-button:focus {
-    background-color: #404bbf;
+.features-title, 
+.team-description-title,
+.portfolio-descriotion-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
-/* features, portfolio description */
 .features-item-title,
 .portfolio-item-title {
     font-weight: 500;
@@ -96,23 +102,13 @@ a {
     letter-spacing: 0.02em;
 }
 
-/* team description*/
-.features-title,
-.team-description-title,
-.portfolio-descriotion-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-
-.team-description{
+.team-description {
     background-color: #f4f4fd;
 }
 
+.team-description-item {
+    background-color: #fff; 
+}
 
 .team-item-title {
     font-weight: 500;
@@ -121,18 +117,13 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #ffffff; 
 }
 
-.team-item-text {   
+.team-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;     
-}
-
-.portfolio-descriotion {
-    background-color: #F4F4FD;
+    text-align: center;
 }
 
 /* page footer */
